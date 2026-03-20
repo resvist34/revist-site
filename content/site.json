@@ -1,13 +1,13 @@
 {
-  "eyebrow": "REVIST • İstanbul merkezli modifiye & performans topluluğu",
-  "hero_title": "Şehrin temposunu, sürüş kültürünü ve otomobil tutkusunu aynı çizgide buluşturuyoruz.",
-  "hero_text": "REVIST; İstanbul’da modifiye ve performans odaklı araç tutkunlarını bir araya getiren seçili bir otomobil topluluğudur. Etkinlikler, buluşmalar, sürüş organizasyonları ve güçlü bir ekip ruhuyla büyüyoruz.",
   "about_title": "REVIST nasıl bir topluluk?",
-  "about_text": "REVIST, İstanbul merkezli yapısıyla modifiye ve performans odaklı sürücüleri aynı çatı altında buluşturur. Topluluk içerisinde saygı, düzen, kalite ve görünüm ön plandadır.",
-  "members_value": "50+",
-  "members_label": "Topluluk üyesi",
   "location_value": "İstanbul",
+  "eyebrow": "REVIST • İstanbul merkezli modifiye & performans topluluğu",
   "location_label": "Ana lokasyon",
   "focus_value": "Modifiye",
-  "focus_label": "Ana odak alanı"
+  "members_value": "50+",
+  "focus_label": "Ana odak alanı",
+  "members_label": "Topluluk üyesi",
+  "hero_text": "REVIST; İstanbul’da modifiye ve performans odaklı araç tutkunlarını bir araya getiren seçili bir otomobil topluluğudur. Etkinlikler, buluşmalar, sürüş organizasyonları ve güçlü  ekip ruhuyla büyüyoruz.",
+  "hero_title": "Şehrin temposunu, sürüş kültürünü ve otomobil tutkusunu aynı çizgide buluşturuyoruz.",
+  "about_text": "REVIST, İstanbul merkezli yapısıyla modifiye ve performans odaklı sürücüleri aynı çatı altında buluşturur. Topluluk içerisinde saygı, düzen, kalite ve görünüm ön plandadır."
 }
