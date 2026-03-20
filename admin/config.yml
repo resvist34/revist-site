@@ -6,12 +6,40 @@ media_folder: "uploads"
 public_folder: "/uploads"
 
 collections:
+  - name: "site"
+    label: "Site Ayarları"
+    files:
+      - label: "Ana Sayfa"
+        name: "home"
+        file: "content/site.json"
+        fields:
+          - { label: "Üst Yazı", name: "eyebrow", widget: "string" }
+          - { label: "Ana Başlık", name: "hero_title", widget: "string" }
+          - { label: "Ana Açıklama", name: "hero_text", widget: "text" }
+          - { label: "Hakkımızda Başlık", name: "about_title", widget: "string" }
+          - { label: "Hakkımızda Yazı", name: "about_text", widget: "text" }
+          - { label: "Üye Sayısı Değer", name: "members_value", widget: "string" }
+          - { label: "Üye Sayısı Yazı", name: "members_label", widget: "string" }
+          - { label: "Lokasyon Değer", name: "location_value", widget: "string" }
+          - { label: "Lokasyon Yazı", name: "location_label", widget: "string" }
+          - { label: "Odak Değer", name: "focus_value", widget: "string" }
+          - { label: "Odak Yazı", name: "focus_label", widget: "string" }
+
   - name: "events"
     label: "Etkinlikler"
-    folder: "content/events"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Başlık", name: "title", widget: "string" }
-      - { label: "Açıklama", name: "description", widget: "text" }
-      - { label: "Fotoğraf", name: "image", widget: "image", required: false }
+    files:
+      - label: "Etkinlik Listesi"
+        name: "events_file"
+        file: "content/events.json"
+        fields:
+          - label: "Etkinlikler"
+            name: "events"
+            widget: "list"
+            fields:
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Rozet", name: "badge", widget: "string", required: false }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - { label: "Konum", name: "location", widget: "string", required: false }
+              - { label: "Format", name: "format", widget: "string", required: false }
+              - { label: "İçerik", name: "content_type", widget: "string", required: false }
+              - { label: "Fotoğraf", name: "image", widget: "image", required: false }
