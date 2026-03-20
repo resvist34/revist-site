@@ -1,0 +1,10 @@
+{
+  "eyebrow": "REVIST • İstanbul merkezli modifiye & performans topluluğu",
+  "hero_title": "REVIST Car Club",
+  "hero_text": "İstanbul merkezli modifiye ve performans odaklı otomobil topluluğu.",
+  "stats": [
+    { "value": "50+", "label": "Üye" },
+    { "value": "İstanbul", "label": "Lokasyon" },
+    { "value": "Performans", "label": "Odak" }
+  ]
+}
