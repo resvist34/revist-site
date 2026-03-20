@@ -5,6 +5,10 @@ backend:
 media_folder: "uploads"
 public_folder: "/uploads"
 
+site_url: "https://startling-youtiao-174e51.netlify.app"
+display_url: "https://startling-youtiao-174e51.netlify.app"
+logo_url: "/logo.jpg"
+
 collections:
   - name: "events"
     label: "Etkinlikler"
@@ -13,7 +17,11 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Rozet", name: "badge", widget: "string", required: false }
       - { label: "Açıklama", name: "description", widget: "text" }
+      - { label: "Konum", name: "location", widget: "string", required: false }
+      - { label: "Format", name: "format", widget: "string", required: false }
+      - { label: "İçerik", name: "content_type", widget: "string", required: false }
       - { label: "Fotoğraf", name: "image", widget: "image", required: false }
 
   - name: "site"
@@ -26,3 +34,9 @@ collections:
           - { label: "Üst Yazı", name: "eyebrow", widget: "string" }
           - { label: "Başlık", name: "hero_title", widget: "string" }
           - { label: "Açıklama", name: "hero_text", widget: "text" }
+          - label: "İstatistikler"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Değer", name: "value", widget: "string" }
+              - { label: "Metin", name: "label", widget: "string" }
