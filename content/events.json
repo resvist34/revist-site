@@ -3,7 +3,7 @@
     {
       "title": "Gece Sürüşü",
       "badge": "Sürüş Organizasyonu",
-      "description": "Topluluk üyeleriyle planlı rota üzerinde konvoy sürüşü, kısa mola noktaları ve çekim alanları.Eğlenceli gazlamalar ve daha pek çok etkinlik",
+      "description": "Topluluk üyeleriyle planlı rota üzerinde konvoy sürüşü.",
       "location": "İstanbul",
       "format": "Üyelere özel katılım",
       "content_type": "Sürüş, tanışma, çekim",
@@ -12,15 +12,11 @@
     {
       "title": "REVIST Hafta Sonu Meet",
       "badge": "Topluluk Buluşması",
-      "description": "Üyelerin araçlarını sergilediği, sohbet ettiği ve yeni katılımcılarla tanıştığı açık alan buluşması.",
+      "description": "Araç tanıtımı ve sosyal buluşma.",
       "location": "İstanbul",
-      "format": "Kontrollü topluluk etkinliği",
-      "content_type": "Araç tanıtımı, fotoğraf, sosyal buluşma",
-      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "title": "REVİST DENEME",
-      "description": "BU DİR DENEMEDİR"
+      "format": "Kontrollü etkinlik",
+      "content_type": "Fotoğraf, sohbet",
+      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
     }
   ]
 }
